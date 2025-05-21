@@ -10,7 +10,7 @@ def decrypt_aes_cbc(key_hex, ciphertext_hex):
     iv = ciphertext[:16]
     ciphertext_blocks = [ciphertext[i:i+16] for i in range(16, len(ciphertext), 16)]
 
-    cipher = AES.new(key, AES.MODE_ECB)  # we'll manage CBC manually
+    cipher = AES.new(key, AES.MODE_ECB)  
     prev = iv
     plaintext = b''
 
