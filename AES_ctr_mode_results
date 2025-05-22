@@ -1,0 +1,2 @@
+CTR 1: CTR mode lets you build a stream cipher from a block cipher.
+CTR 2: Always avoid the two time pad!
