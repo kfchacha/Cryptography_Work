@@ -1,0 +1,2 @@
+CBC 1: Basic CBC mode encryption needs padding.
+CBC 2: Our implementation uses rand. IV
